@@ -25,6 +25,6 @@ In your terminal, please run the following codes.
 - [commands.md](https://github.com/redcarrott/Personal-Projects/blob/main/commands.md) - useful Docker commands
 - [main.py](https://github.com/redcarrott/Personal-Projects/blob/main/main.py) - Python script
 - [example1.pdf](https://github.com/redcarrott/Personal-Projects/blob/main/example1.pdf) - compiled singular PDF file (of all PDF pages)
-- [personal_info](https://github.com/redcarrott/Personal-Projects/blob/main/personal_info.txt) - dictionary of personal info to be removed
+- [personal_info](https://github.com/redcarrott/Personal-Projects/blob/main/personal_info.txt) - dictionary of personal info (names, addresses) to be removed
 - [testing-1.ipynb](https://github.com/redcarrott/Personal-Projects/blob/main/testing-1.ipynb) - Jupyter Notebook to test Python scripts
 - [redacted.pdf](https://github.com/redcarrott/Personal-Projects/blob/main/redacted.pdf) - outcome PDF of running application.
