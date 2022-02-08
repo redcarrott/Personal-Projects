@@ -1,2 +1,2 @@
-{"Hermione Granger": "Diagon Alley #10"}
-{"Harry Potter": "4 Pivet Drive"}
+{1: ["Hermione Granger", "Diagon Alley #10"],
+2: ["Harry Potter", "4 Privet Drive, Cupboard Under the Stairs"]}
