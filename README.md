@@ -9,6 +9,7 @@ In your terminal, please run the following codes.
 `$ git clone [enter repository HTPPS]`
 
 *Inside the 'removePII-app' folder:*
+
 2. edit 'example1.pdf' file to contain all PDFs 
 
 3. edit 'personal_info.txt' to contain all names and addresses to be removed
