@@ -10,13 +10,15 @@ In your terminal, please run the following codes.
 
 2. edit 'example1.pdf' file to contain all PDFs 
 
-3. build the Docker image 
+3. edit 'personal_info.txt' to contain all names and addresses to be removed
+
+4. build the Docker image 
 `$ docker build -t [image_name] . `
 
-4. launch the Docker image
+5. launch the Docker image
 `$ docker run [image_name]`
 
-5. PDF with removed PII will be automatically created under 'redacted.pdf'
+6. PDF with removed PII will be automatically created under 'redacted.pdf'
 
 ### Summary of files
 - [Dockerfile](https://github.com/redcarrott/Personal-Projects/blob/main/Dockerfile) - to create Docker environment
