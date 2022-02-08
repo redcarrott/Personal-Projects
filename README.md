@@ -5,11 +5,18 @@ This repository contains a Docker-based application using Python to remove PII f
 ### Instructions to run the application:
 In your terminal, please run the following codes.
 
-1. build the Docker image 
+1. clone this repository into personal computing environment 
+`$ git clone [enter repository HTPPS]`
+
+2. edit 'example1.pdf' file to contain all PDFs 
+
+3. build the Docker image 
 `$ docker build -t [image_name] . `
 
-2. launch the Docker image
+4. launch the Docker image
 `$ docker run [image_name]`
+
+5. PDF with removed PII will be automatically created under 'redacted.pdf'
 
 ### Summary of files
 - [Dockerfile](https://github.com/redcarrott/Personal-Projects/blob/main/Dockerfile) - to create Docker environment
