@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
 # imports
-import fitz
+import sys
+import fitz.fitz import *
 import re
 
 import ast
