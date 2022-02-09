@@ -23,13 +23,13 @@ In your terminal, please run the following codes.
 6. PDF with removed PII will be automatically created under 'redacted.pdf'
 
 ### Summary of files
-- [Dockerfile](https://github.com/redcarrott/Personal-Projects/blob/main/Dockerfile) - to create Docker environment
+- [Dockerfile](https://github.com/redcarrott/Personal-Projects/blob/main/removePII-app/Dockerfile) - to create Docker environment
 - [commands.md](https://github.com/redcarrott/Personal-Projects/blob/main/commands.md) - useful Docker commands
-- [main.py](https://github.com/redcarrott/Personal-Projects/blob/main/main.py) - Python script
-- [example1.pdf](https://github.com/redcarrott/Personal-Projects/blob/main/example1.pdf) - compiled singular PDF file (of all PDF pages)
-- [personal_info](https://github.com/redcarrott/Personal-Projects/blob/main/personal_info.txt) - dictionary of personal info (names, addresses) to be removed
+- [main.py](https://github.com/redcarrott/Personal-Projects/blob/main/removePII-app/main.py) - Python script
+- [example1.pdf](https://github.com/redcarrott/Personal-Projects/blob/main/removePII-app/example1.pdf) - compiled singular PDF file (of all PDF pages)
+- [personal_info](https://github.com/redcarrott/Personal-Projects/blob/main/removePII-app/personal_info.txt) - dictionary of personal info (names, addresses) to be removed
 - [testing-1.ipynb](https://github.com/redcarrott/Personal-Projects/blob/main/testing-1.ipynb) - Jupyter Notebook to test Python scripts
-- [redacted.pdf](https://github.com/redcarrott/Personal-Projects/blob/main/redacted.pdf) - outcome PDF of running application.
+- [redacted.pdf](https://github.com/redcarrott/Personal-Projects/blob/main/removePII-app/redacted.pdf) - outcome PDF of running application.
 
 *NOTE: This project is still in progress.*
 Action items: store redacted.pdf made in Docker image to host machine
