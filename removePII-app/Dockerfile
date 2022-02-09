@@ -11,7 +11,7 @@ FROM python:latest
 # Here we put the file at the image root folder.
 COPY main.py /
 COPY personal_info.txt /
-COPY example1.pdf /
+COPY example1.pdf / 
 RUN pip install --upgrade pip && \
     pip install --upgrade pymupdf
 
@@ -19,3 +19,4 @@ RUN pip install --upgrade pip && \
 # We use the keyword 'CMD' to do that.
 # The following command will execute "python ./main.py".
 CMD [ "python", "./main.py" ]
+

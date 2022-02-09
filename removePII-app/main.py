@@ -1,5 +1,18 @@
 #!/usr/bin/env python3
 
+print(str("\n\n -- Removing PIIs from PDFs -- \n" + 
+         "This program is meant to remove PIIs, " + 
+         "specifically names, addresses, and emails " + 
+         "from PDFs to ensure digital privacy.\n" + 
+         "Please make sure that all PDF pages are compiled into one PDF, " +
+         "and named under \'example1.pdf\'"".\n\n"))
+
+
+#############################################################################
+###################### Running the script ###################################
+#############################################################################
+
+
 # imports
 import fitz
 import re
@@ -93,14 +106,3 @@ if __name__ == "__main__":
     redactor = Redactor(path)
     redactor.redaction()
 
-
-#############################################################################
-###################### Running the script ###################################
-#############################################################################
-
-print(str("\n\n -- Removing PIIs from PDFs -- \n" + 
-         "This program is meant to remove PIIs, " + 
-         "specifically names, addresses, and emails " + 
-         "from PDFs to ensure digital privacy.\n" + 
-         "Please make sure that all PDF pages are compiled into one PDF, " +
-         "and named under \'example1.pdf\'"".\n\n"))
