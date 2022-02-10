@@ -22,6 +22,9 @@ In your terminal, please run the following codes.
 
 6. PDF with removed PII will be automatically created under 'redacted.pdf'
 
+7. to access 'redacted.pdf'
+`% sudo docker cp $(sudo docker ps --latest --quiet):redacted.pdf <local_path>`
+
 ### Summary of files
 - [Dockerfile](https://github.com/redcarrott/Personal-Projects/blob/main/removePII-app/Dockerfile) - to create Docker environment
 - [commands.md](https://github.com/redcarrott/Personal-Projects/blob/main/commands.md) - useful Docker commands
