@@ -34,5 +34,3 @@ In your terminal, please run the following codes.
 - [testing-1.ipynb](https://github.com/redcarrott/Personal-Projects/blob/main/testing-1.ipynb) - Jupyter Notebook to test Python scripts
 - [redacted.pdf](https://github.com/redcarrott/Personal-Projects/blob/main/removePII-app/redacted.pdf) - outcome PDF of running application.
 
-*NOTE: This project is still in progress.*
-Action items: store redacted.pdf made in Docker image to host machine
